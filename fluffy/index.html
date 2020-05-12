@@ -12,9 +12,9 @@
   <nav class="navigation">
     <div class="navigation__links"><img class ="navigation__logo" src="images/logo.svg" alt="logo"></div>
     <ul class="navigation__links">
-      <li class="navigation__item"><a class="navigation__link" href="#">Services</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#">About</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#">Contact</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#services">Services</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#about">About</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#contact">Contact</a></li>
     </ul>
   </nav>
 
@@ -30,38 +30,63 @@
     </div>
     <img class="header__img" src="images/header.png" alt="image illustationg girl climbing a ladder">
   </header>
-<!--
 
 
-  <main>
-    <section>
-      <small></small>
-      <h2>Why choose Agency theme</h2>
-      <div class="">
-        <span>
-          <i></i>
+  <main class="main-container">
+    <section id="services" class="services__wrapper">
+
+      <small class="services_subheading">Our Services</small>
+      <h2 class="services__title">Why choose Agency theme</h2>
+ 
+        <div class="services__row">
+          <span class="services__item">
+            <img class="services__item-icon-size" src="images/computor.svg" alt="computor icon">
+            <h3 class="services__item-heading">Ultra Responsive</h3>
+            <p class="services__item-text">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Maecenas hendrerit in erat nec <br>
+              fermentum. Aliquam rutrum vestibulum.</p>
+          </span>
+
+          <span class="services__item">
+            <img class="services__item-icon-size" src="images/award.png" alt="award icon">
+            <h3 class="services__item-heading">Award Winning Design</h3>
+            <p class="services__item-text">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Maecenas hendrerit in erat nec <br>
+            fermentum. Aliquam rutrum vestibulum.</p>
+          </span>
+
+          <span class="services__item">
+            <img class="services__item-icon-size" src="images/online_support.svg" alt="online support icon">
+            <h3 class="services__item-heading">Support & Updates</h3>
+            <p class="services__item-text">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Maecenas hendrerit in erat nec <br>
+              fermentum. Aliquam rutrum vestibulum.</p>
+          </span>
+        </div>
+
+      <div class="services__row-kpi">
+        <span class="services__item"> <!--fixa spacing i column, kolla över BEM namngiving-->
+        <img class="services__row--img" src="images/kpi.svg" alt="">
+        <small class="services_subheading">Websites, Softwares & Apps.</small>
         </span>
-        <h3>Ultra Responsive</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eum laudantium quisquam non consequatur perferendis numquam, et a ipsum porro soluta.</p>
-      </div>
-
-      <div class="">
-        <span>
-          <i></i>
+        <span class="services__item">
+        <img class="services__row--img" src="images/15yrs+.svg" alt="">
+        <small class="services_subheading">Years of Experience</small>
         </span>
-        <h3>Ultra Responsive</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eum laudantium quisquam non consequatur perferendis numquam, et a ipsum porro soluta.</p>
-      </div>
-
-      <div class="">
-        <span>
-          <i></i>
+        <span class="services__item">
+        <img class="services__row--img" src="images/kpi2.svg" alt="">
+        <small class="services_subheading">Customers Served</small>
         </span>
-        <h3>Ultra Responsive</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eum laudantium quisquam non consequatur perferendis numquam, et a ipsum porro soluta.</p>
       </div>
     </section>
+
+    <section id="contact" class="section__wrapper">
+      <form action="">
+        <label for="Name"></label>
+        <input type="text" placeholder="Ram Kaji">
+      </form>
+    </section>
   </main>
-  -->
+
 </body>
 </html>
