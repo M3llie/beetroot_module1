@@ -4,8 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flexbox + BEM</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="https://kit.fontawesome.com/709e4c9863.js" crossorigin="anonymous"></script>
 </head>
-<body>
-  
+<body class="screen">
+
+<nav class="navigation">
+  <div class="navigation__logo"><img src="images/logo.png" alt="logo"></div>
+  <ul class="navigation__links">
+    <li class="navigation__item"><a class="navigation__link" href="#">Red</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Blue</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Yellow</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="#">Green</a></li>
+  </ul>
+</nav>
+<header>
+  <div class="container">
+  <div class="container__contentbox">
+    <h1 class="container__title">I <i class="fas fa-heart"></i> color </h1>
+    <p class="container__text"> Color isn’t that difficult to get right,
+       if you know where to start.<br>Learn by doing and you’ll be a master 
+       in no time.</p>
+    <button class="container__button">Over to you</button>
+  </div>
+</div>
+  <div class="cards-container">
+    <div class="card"><img class="card__img" src="images/star.svg" alt="icon of a star"><h2>Blue</h2><p>Blue is the color of the sky and sea. It is often associated with depth  and stability.</p></div>
+    <div class="card"><img class="card__img" src="images/star.svg" alt="icon of a star"><h2>Blue</h2><p>Blue is the color of the sky and sea. It is often associated with depth  and stability.</p></div>
+    <div class="card"><img class="card__img" src="images/star.svg" alt="icon of a star"><h2>Blue</h2><p>Blue is the color of the sky and sea. It is often associated with depth  and stability.</p></div>
+  </div>
+</header>
 </body>
 </html>
