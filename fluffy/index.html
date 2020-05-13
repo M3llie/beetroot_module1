@@ -32,12 +32,12 @@
   </header>
 
 
-  <main class="main-container">
-    <section id="services" class="services__wrapper">
-
-      <small class="services_subheading">Our Services</small>
-      <h2 class="services__title">Why choose Agency theme</h2>
- 
+  <main class="main">
+    <section id="services" class="section-container">
+      <div class="services__wrapper">
+        <small class="services_subheading">Our Services</small>
+        <h2 class="services__title">Why choose Agency theme</h2>
+      
         <div class="services__row">
           <span class="services__item">
             <img class="services__item-icon-size" src="images/computor.svg" alt="computor icon">
@@ -63,25 +63,73 @@
               fermentum. Aliquam rutrum vestibulum.</p>
           </span>
         </div>
+      </div>
 
       <div class="services__row-kpi">
-        <span class="services__item"> <!--fixa spacing i column, kolla över BEM namngiving-->
-        <img class="services__row--img" src="images/kpi.svg" alt="">
-        <small class="services_subheading">Websites, Softwares & Apps.</small>
+        <span class="services__item"> 
+          <img class="services__row--img" src="images/kpi.svg" alt="">
+          <small class="services_subheading">Websites, Softwares & Apps.</small>
         </span>
         <span class="services__item">
-        <img class="services__row--img" src="images/15yrs+.svg" alt="">
-        <small class="services_subheading">Years of Experience</small>
+          <img class="services__row--img" src="images/15yrs+.svg" alt="">
+          <small class="services_subheading">Years of Experience</small>
         </span>
         <span class="services__item">
-        <img class="services__row--img" src="images/kpi2.svg" alt="">
-        <small class="services_subheading">Customers Served</small>
+          <img class="services__row--img" src="images/kpi2.svg" alt="">
+          <small class="services_subheading">Customers Served</small>
         </span>
       </div>
     </section>
 
-    <section id="contact" class="section__wrapper">
-      <form action="">
+    <section id="about" class="section-container">
+      <div class="about__wrapper">
+          <div class="about__titles">
+            <small class="about__subheading">Robust Agency</small>
+            <h2 class="about__title">About Us</h2>
+        </div>
+
+        <div class="about__text-wrapper">
+        <div class="about__paragraph-left">
+          <p class="about__paragraph-italic">We specialise in website design, user interfaces, development & copywriting.</p>
+          <p class="about__paragraph">We’re a website development studio focussed on creating immersive digital strategies for your business that take established brands to new heights and launch ambitious start-ups towards their goals.</p>
+        </div>
+        <div class="about__parapgraph-right">
+          <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus. Ut ultrices ultricies finibus. Donec rutrum felis convallis, efficitur tellus sit amet, tristique metus. Integer eget sagittis urna.</p>
+          <p class="about__paragraph">Aenean et facilisis mi, ut posuere eros. Vivamus nec velit at diam pretium blandit id nec urna. Aenean dignissim vehicula sapien ut vehicula. Aliquam gravida metus non ullamcorper vestibulum. Mauris lobortis purus at diam posuere, at molestie massa lobortis.</p>
+        </div>
+       </div>
+          <img class="about-logos" src="images/logos.png" alt="">
+      </div>
+
+      <div>
+        <h2>Please Relax, we will do the work.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Morbi iaculis nisl vulputate justo consequat tempor.</li>
+          <li>Nam gravida sed ipsum in pellentesque.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-container">
+      <small>An Agency That Helps You</small>
+      <h2>Start Building your Website Today</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices purus lectus, et accumsan nibh suscipit sed. Nullam lorem dui, congue pharetra posuere vel, imperdiet ac lorem.</p>
+      <button class="button">Get Started Now</button>
+    </section>
+
+    <section class="section-container">
+
+    </section>
+
+
+    <section id="contact" class="section-container">
+      <form class ="form" action="">
+        <label for="Name"></label>
+        <input type="text" placeholder="Ram Kaji">
+        <label for="Name"></label>
+        <input type="text" placeholder="Ram Kaji">
         <label for="Name"></label>
         <input type="text" placeholder="Ram Kaji">
       </form>

@@ -7,6 +7,8 @@
 
 h1, h2, h3,p{
   font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 img{
@@ -118,24 +120,8 @@ img{
   text-align: center;
 }
 
-.main-container{
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  width: 100%;
-  min-height: 100vh;
-  height: 100%;
-  flex: 1;
-  background: #fff;
-}
-
-.services__wrapper{
-  flex: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-  align-items: center;
-  min-height: 100vh;
+.main{
+  background-color: #fff;
 }
 
 .services{
@@ -146,7 +132,6 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  /* flex: 2; */
 }
 
 
@@ -160,7 +145,7 @@ img{
 .services__row-kpi{
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  align-items: center;
 
   background: #F4F6F7;
   height: 205px;
@@ -178,12 +163,23 @@ img{
   padding-right: 20px; */
 }
 
+.services__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 611px;
+  height: 100%;
+  width: 100%;
+}
 .services_subheading{
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #2557AB;
+
+  margin-bottom: 20px;
 }
 
 .services__title{
@@ -191,6 +187,8 @@ img{
   line-height: 52px;
   text-align: center;
   letter-spacing: -0.5px;
+
+  margin-bottom: 20px;
 }
 
 .services__item-icon-size{
@@ -211,7 +209,92 @@ img{
 }
 
 
+/*====================================================================================================*/
 
- .section__wrapper{
-   height: 100vh;
+ .section-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  }
+
+
+ .about__wrapper{
+  position: relative;
+  min-height: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+ }
+
+ .about__titles{
+   height: 74px;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   padding-top: 30px;
+   margin-top: 30px;
+ }
+
+ .about__subheading{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2557AB;
+  padding-bottom: 20px;
+ }
+
+
+ .about__title{
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 52px;
+  color: #13253A;
+ }
+
+ .about__text-wrapper{
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .about__paragraph-left{
+   height: 215px;
+   width: 370px;
+ }
+
+ .about__paragraph-italic{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #13253A;
+  
+ }
+
+ .about__parapgraph-right{
+   height: 270px;
+   width: 570px;
+ }
+
+ .about__paragraph{
+  font-size: 16px;
+  line-height: 169%;
+  color: #13253A;
+  padding-bottom: 20px;
+ }
+
+ .about-logos{
+   max-width: 100%;
+   height: auto;
+ }
+ 
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
